@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ava Steimle's Portfolio</title>
+
+</head>
+<!--Start Body-->
+<body>
+    <header>
+        <h1 class="home" id="home">AVA</h1>
+        <nav>
+            <article class="dropdownMenu">
+            <button class="menuButton">Menu</button>
+            <div class="dropdownContent">
+                
+                    <a href="#aboutMe">About Me</a> <!--link to about me-->
+                    <a href="#myWork">My Work</a> <!--link to my work-->
+                    <a href="#contactMe">Contact Me</a> <!--Link to Contact me form-->
+            </div>
+            </article>
+        </nav>
+    </header>
+
+   <!--Intro image-->
+   <article class="introIMG">
+        <img src="assets/intro.jpg" alt="Bio Image of Ava Steimle" height= 250px; width= 250px>
+    </article>
+
+    <section class="content">
+        <!--About Me Section-->
+        <section id="aboutMe" class="aboutMe">
+        <h2>About Me</h2>
+        <p>
+            Hello There! <br>
+            My name is Ava Steimle. I am beginning my career as a full stack Web Developer. The purpose of this portfolio is to showcase my previous work!
+        </p>
+        </section>
+
+        <!--My Work Section-->
+        <section id="myWork" class="myWork">
+        <h2>My Work<h2>
+    
+        <article class="imgGallery">
+            <div class="project">
+                <div class="desc">Project One</div>
+                <a target="_blank" href="placeholder.jpg.png">
+                <img src="assets/placeholder.jpg.png" alt="placeholder image" height="175" width="300">
+                </a>
+            </div>
+
+            <div class="project">
+                <div class="desc">Project Two</div>
+                <a target="_blank" href="placeholder.jpg.png">
+                <img src="assets/placeholder.jpg.png" alt="placeholder image" height="175" width="300">
+                </a>
+            </div>
+
+            <div class="project">
+                <div class="desc">Project Three</div>
+                <a target="_blank" href="placeholder.jpg.png">
+                <img src="assets/placeholder.jpg.png" alt="placeholder image" height="175" width="300">
+                </a>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="project">
+                <div class="desc">Project Four</div>
+                <a target="_blank" href="placeholder.jpg.png">
+                <img src="assets/placeholder.jpg.png" alt="placeholder image" height="175" width="300">
+                </a>
+            </div>
+
+        </article>
+    
+
+        
+        </section>
+
+        <!--Contact Me Section-->
+        <section id="contactMe" class="contactMe">
+        <h2>Contact Me<h2>
+            <form action="/action_page.php" autocomplete="on">
+                <label for="fname">First name</label><br> <!-- first name-->
+                <input type="text" id="fname" name="fname" placeholder="Your name.."><br> <!-- first name input-->
+                <label for="lname">Last name</label><br> <!-- last name-->
+                <input type="text" id="lname" name="lname" placeholder="Your last name.."><br>  <!-- last name input-->
+                <label for="email address">Email Address</label><br> <!--email address-->
+                <input type="email" id="email address" name="email address" placeholder="youremail@example.com"><br><br> <!-- email address input-->
+                <label for="description">Your Message</label><br> <!-- end Budget-->
+                <textarea id="desbox" placeholder="Hello! We are looking for a web developer..."></textarea> <!-- description input--><br><br>
+                <input type="submit" value="Submit"> <!-- submit form -->
+                </form> 
+
+    
+        </section> 
+
+    </section>
+
+
+    
+</body>
+</html>
