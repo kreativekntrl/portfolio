@@ -66,17 +66,17 @@ header nav {
 
   /*intro image*/
   .introIMG {
-    width: 25%;
+    background-color: #AFEEEE;
+    width: 100%;
     margin: auto;
     display: flex;
     justify-content: center;
-    padding: 10px;
-  }
+    }
 
   /*All content*/
 .content {
   display: inline-block;
-  margin-left: 8px;
+  padding: 0 8px;
   font-size: 20px;
   color: #AFEEEE;
   font-family: 'Playfair Display', serif;
@@ -86,25 +86,40 @@ header nav {
 .content p {
   font-size: 20px;
   margin-bottom: 30px;
+  margin-right: 8px;
 }
 
 /*content headings*/
 .content h2 {
     font-size: 200%;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
+/*STYLE FOR PROJECT IMAGES*/
+/*entire section*/
+.project {
+  position: relative;
+}
 
 /*project images*/
 .project img {
   width: 100%;
   height: auto;
   border: 2px solid #AFEEEE;
+ 
 }
 
 /*image descriptions*/
 .desc {
   font-size: 25px;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+  background-color: #AFEEEE;
+  color: #6A5ACD;
+  padding: 3px;
+
 }
 /*Hover to make img and border larger*/
 .project img:hover {
@@ -120,11 +135,14 @@ header nav {
 
 
 /* MEDIA QUERY*/
+
+/*Header will always be width:100%*/
 @media screen and (max-width: 992px) {
     header {
       width: 100%;
     }
   }
+
 /*changes paragraph font size to 16 for width < 400*/
 @media only screen and (max-width: 400px) {
   .content p {
@@ -132,18 +150,34 @@ header nav {
   }
 }
 
-/*for introIMG*/
-@media screen and (max-width: 992px) {
+/*for introIMG > 480*/
+@media screen and (min-width: 480px) {
   .introIMG {
-    width: 50%; 
+    width: 100%;
   }  
 }
 
-@media only screen and (min-width: 374px) {
-  .project img {
-    width: 50%;
+@media screen and (max-width: 480px) {
+  .introIMG {
+    width: 100%;
+    
+  }
+  
+}
+
+/*For project images*/
+@media screen and (max-width: 992px) {
+  .project {
+    width: 100%;
   }
 }
+@media screen and (max-width: 768px) {
+  .project {
+    width: 100%;
+  }
+  
+}
+
 
 
 
