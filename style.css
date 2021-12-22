@@ -84,7 +84,7 @@ header nav {
 
 /*paragraphs within content*/
 .content p {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 30px;
   margin-right: 8px;
 }
@@ -137,46 +137,44 @@ header nav {
 /* MEDIA QUERY*/
 
 /*Header will always be width:100%*/
-@media screen and (max-width: 992px) {
+
+@media screen and (min-width: 480px) {
+  .introIMG {
+    width: 100%;
+  }  
+  .content p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .project {
+    width: 50%;
+  }
+  .imgGallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #p1 {
+    width: 100%;
+  }
+  
+}
+@media screen and (min-width: 992px) {
     header {
+      width: 100%;
+    }
+    .project {
       width: 100%;
     }
   }
 
 /*changes paragraph font size to 16 for width < 400*/
-@media only screen and (max-width: 400px) {
-  .content p {
-    font-size: 16px;
-  }
-}
 
 /*for introIMG > 480*/
-@media screen and (min-width: 480px) {
-  .introIMG {
-    width: 100%;
-  }  
-}
-
-@media screen and (max-width: 480px) {
-  .introIMG {
-    width: 100%;
-    
-  }
-  
-}
 
 /*For project images*/
-@media screen and (max-width: 992px) {
-  .project {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .project {
-    width: 100%;
-  }
-  
-}
+
 
 
 
