@@ -91,7 +91,7 @@ header nav {
 
 /*content headings*/
 .content h2 {
-    font-size: 200%;
+    font-size: 30px;
     margin-bottom: 20px;
     text-decoration: underline;
 }
@@ -136,19 +136,21 @@ header nav {
 /*contact me styling*/
 .contactMe {
   width: 100%;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: #F0F8FF;
   position: center;
  
 }
 label {
   display: inline-block;
-  font-size: 30px;
-
-
+  color: #6A5ACD;
+  font-size: 75%;
 }
 
 /*style entire layout*/
 .contactForm {
-  padding: 20px;
+  padding: 10px;
 }
 
 /*style input boxes*/
@@ -174,6 +176,7 @@ input[type=submit]:hover {
   color: #AFEEEE;
   border: 1px solid #AFEEEE;
 }
+
 
 
 
