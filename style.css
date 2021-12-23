@@ -142,6 +142,7 @@ header nav {
   position: center;
  
 }
+
 label {
   display: inline-block;
   color: #6A5ACD;
@@ -162,6 +163,7 @@ input[type=text], input[type=email], .desBox {
   resize: vertical;
 }
 
+/*style submit button*/
 input[type=submit] {
   width: 100%;
   padding: 12px 20px;
@@ -177,17 +179,7 @@ input[type=submit]:hover {
   border: 1px solid #AFEEEE;
 }
 
-
-
-
-/*style submit button*/
-
-
-
 /* MEDIA QUERY*/
-
-/*Header will always be width:100%*/
-
 @media screen and (min-width: 375px) {
   .introIMG {
     width: 100%;
@@ -223,11 +215,7 @@ input[type=submit]:hover {
     }
   }
 
-/*changes paragraph font size to 16 for width < 400*/
 
-/*for introIMG > 480*/
-
-/*For project images*/
 
 
 
