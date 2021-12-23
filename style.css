@@ -139,20 +139,44 @@ header nav {
   position: center;
  
 }
+label {
+  display: inline-block;
+  font-size: 30px;
+
+
+}
+
 /*style entire layout*/
 .contactForm {
   padding: 20px;
-  
-
 }
+
 /*style input boxes*/
-input[type=text] {
+input[type=text], input[type=email], .desBox {
   width: 100%;
   padding: 12px;
   background-color: #AFEEEE;
   border-radius: 2px;
   resize: vertical;
 }
+
+input[type=submit] {
+  width: 100%;
+  padding: 12px 20px;
+  color: #6A5ACD;
+  background-color: #AFEEEE;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #6A5ACD;
+  color: #AFEEEE;
+  border: 1px solid #AFEEEE;
+}
+
+
+
 /*style submit button*/
 
 
