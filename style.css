@@ -133,6 +133,29 @@ header nav {
   clear: both;
 }
 
+/*contact me styling*/
+.contactMe {
+  width: 100%;
+  position: center;
+ 
+}
+/*style entire layout*/
+.contactForm {
+  padding: 20px;
+  
+
+}
+/*style input boxes*/
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  background-color: #AFEEEE;
+  border-radius: 2px;
+  resize: vertical;
+}
+/*style submit button*/
+
+
 
 /* MEDIA QUERY*/
 
