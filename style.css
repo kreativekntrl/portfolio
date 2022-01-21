@@ -17,19 +17,6 @@ body {
   background-color: black;
 }
 
-header {
-  padding: 5px;
-  font-family: 'Playfair Display', serif;
-  color: var(--secondary);
-}
-
-header h1 {
-  display: inline-block;
-  font-size: 52px;
-  color: var(--secondary);
-  padding: 8px;
-}
-
 header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -42,10 +29,9 @@ header nav {
   background-color: var(--primary);
   color: var(--secondary);
   padding: 20px;
-  font-size: 25px;
+  font-size: 30px;
   border: none;
 }
-
 
 .dropdownMenu {
   position: sticky;
@@ -65,7 +51,7 @@ header nav {
 /*Styles the links*/
 .dropdownContent a {
   color: var(--dark);
-  padding: 15px;
+  padding: 10px;
   text-decoration: none;
   display: block;
 }
@@ -87,7 +73,7 @@ header nav {
   background-color: var(--primary);
 }
 
-.center {
+.homepage {
   height: 812px;
   width: 375px;
   color: var(--secondary);
@@ -128,7 +114,6 @@ header nav {
 .content h2 {
   font-size: 30px;
   margin-bottom: 20px;
-  text-decoration: underline;
 }
 
 /*STYLE FOR PROJECT IMAGES*/
