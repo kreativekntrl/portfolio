@@ -1,85 +1,120 @@
+:root {
+  --primary: black;
+  --secondary: white;
+  --dark: #C4C4C4;
+  --light: #E5E5E5;
+}
+
 /* body color*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Permanent Marker', cursive;
 }
+
 body {
-    background-color: #6A5ACD;
+  background-color: black;
 }
+
 header {
-    padding: 5px;
-    font-family: 'Playfair Display', serif;
-    color: #AFEEEE;
+  padding: 5px;
+  font-family: 'Playfair Display', serif;
+  color: var(--secondary);
 }
 
 header h1 {
-    display: inline-block;
-    font-size: 52px;
-    color: #AFEEEE;
-    padding: 8px;
+  display: inline-block;
+  font-size: 52px;
+  color: var(--secondary);
+  padding: 8px;
 }
 
 header nav {
-        padding-top: 15px;
-        margin-right: 20px;
-        float: right;
-        font-family: 'Playfair Display', serif;
-        font-size: 20px;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-size: 20px;
 }
+
 /* Menu Button */
 .menuButton {
-    background-color: #6A5ACD;
-    color: #AFEEEE;
-    padding: 20px;
-    font-size: 24px;
-    border: none;
-  }
-  
-  
-  .dropdownMenu {
-    position: sticky;
-    display: inline-block;
-  }
-  /* Styles dropdown content*/
-  .dropdownContent {
-    display: none;
-    position: absolute;
-    background-color:  #6A5ACD;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  /*Styles the links*/
-  .dropdownContent a {
-    color: #AFEEEE;
-    padding: 15px;
-    text-decoration: none;
-    display: block;
-  }
-  /*Hover over each link*/
-  .dropdownContent a:hover {background-color: #AFEEEE; color: #6A5ACD; }
-  /*Hovers over the content*/
-  .dropdownMenu:hover .dropdownContent {display: block;}
-  /*Hover over the button itself*/
-  .dropdownMenu:hover .menuButton {background-color: #6A5ACD;}
+  background-color: var(--primary);
+  color: var(--secondary);
+  padding: 20px;
+  font-size: 25px;
+  border: none;
+}
 
-  /*intro image*/
-  .introIMG {
-    background-color: #AFEEEE;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    }
 
-  /*All content*/
+.dropdownMenu {
+  position: sticky;
+  display: inline-block;
+}
+
+/* Styles dropdown content*/
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: var(--primary);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/*Styles the links*/
+.dropdownContent a {
+  color: var(--dark);
+  padding: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+/*Hover over each link*/
+.dropdownContent a:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+  font-size: 26px;
+}
+
+/*Hovers over the content*/
+.dropdownMenu:hover .dropdownContent {
+  display: block;
+}
+
+/*Hover over the button itself*/
+.dropdownMenu:hover .menuButton {
+  background-color: var(--primary);
+}
+
+.center {
+  height: 812px;
+  width: 375px;
+  color: var(--secondary);
+  font-size: 100px;
+}
+
+.ava {
+  position: absolute;
+  top: 293px;
+  left: 80px;
+}
+
+/*intro image*/
+.introIMG {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  opacity: .75;
+}
+
+/*All content*/
 .content {
   display: inline-block;
   padding: 0 8px;
   font-size: 20px;
-  color: #AFEEEE;
-  font-family: 'Playfair Display', serif;
+  color: var(--secondary);
 }
 
 /*paragraphs within content*/
@@ -91,9 +126,9 @@ header nav {
 
 /*content headings*/
 .content h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
 }
 
 /*STYLE FOR PROJECT IMAGES*/
@@ -106,8 +141,8 @@ header nav {
 .project img {
   width: 100%;
   height: auto;
-  border: 2px solid #AFEEEE;
- 
+  border: 2px solid var(--light);
+
 }
 
 /*image descriptions*/
@@ -116,11 +151,12 @@ header nav {
   position: absolute;
   bottom: 20px;
   left: 10px;
-  background-color: #AFEEEE;
-  color: #6A5ACD;
+  background-color: var(--light);
+  color: var(--dark);
   padding: 3px;
 
 }
+
 /*Hover to make img and border larger*/
 .project img:hover {
   border: 3px solid black;
@@ -138,14 +174,14 @@ header nav {
   width: 100%;
   padding: 6px;
   border-radius: 6px;
-  background-color: #F0F8FF;
+  background-color: var(--light);
   position: center;
- 
+
 }
 
 label {
   display: inline-block;
-  color: #6A5ACD;
+  color: var(--primary);
   font-size: 75%;
 }
 
@@ -155,10 +191,12 @@ label {
 }
 
 /*style input boxes*/
-input[type=text], input[type=email], .desBox {
+input[type=text],
+input[type=email],
+.desBox {
   width: 100%;
   padding: 12px;
-  background-color: #AFEEEE;
+  background-color: var(--secondary);
   border-radius: 2px;
   resize: vertical;
 }
@@ -167,57 +205,59 @@ input[type=text], input[type=email], .desBox {
 input[type=submit] {
   width: 100%;
   padding: 12px 20px;
-  color: #6A5ACD;
-  background-color: #AFEEEE;
+  color: var(--primary);
+  background-color: var(--secondary);
   border: none;
   cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #6A5ACD;
-  color: #AFEEEE;
-  border: 1px solid #AFEEEE;
+  background-color: var(--primary);
+  color: var(--secondary);
+  border: 1px solid var(--light);
 }
 
 /* MEDIA QUERY*/
 @media screen and (min-width: 375px) {
   .introIMG {
     width: 100%;
-  }  
+  }
 }
 
 @media screen and (min-width: 768px) {
   .project {
     width: 50%;
   }
+
   .imgGallery {
     display: flex;
     flex-wrap: wrap;
   }
+
   #p1 {
     width: 100%;
   }
-  
+
 }
+
 @media screen and (min-width: 992px) {
-    header {
-      width: 100%;
-    }
-    .project {
-      width: 100%;
-    }
-    .imgGallery {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    #p1, #p2, #p3, #p4 {
-      width: 50%;
-    }
+  header {
+    width: 100%;
   }
 
+  .project {
+    width: 100%;
+  }
 
+  .imgGallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-
-
-
-
+  #p1,
+  #p2,
+  #p3,
+  #p4 {
+    width: 50%;
+  }
+}
