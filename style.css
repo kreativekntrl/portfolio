@@ -17,12 +17,12 @@ body {
   background-color: black;
 }
 
-header nav {
+nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
   font-size: 20px;
-}
+} 
 
 /* Menu Button */
 .menuButton {
@@ -88,12 +88,12 @@ header nav {
 
 /*intro image*/
 .introIMG {
-  width: 100%;
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  opacity: .75;
+  height: 468px;
+  width: 256px;
+  margin-left: 18px;
+  margin-top: 26px;
 }
+
 
 /*All content*/
 .content {
@@ -205,7 +205,7 @@ input[type=submit]:hover {
 /* MEDIA QUERY*/
 @media screen and (min-width: 375px) {
   .introIMG {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
