@@ -82,8 +82,10 @@ nav {
 
 .ava {
   position: absolute;
+  width: 100%;
+  text-align: center;
   top: 293px;
-  left: 80px;
+  /* left: 80px; */
 }
 
 /*intro image*/
@@ -117,7 +119,7 @@ nav {
 /*content headings*/
 .content h2 {
   font-size: 45px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 /*STYLE FOR PROJECT IMAGES*/
@@ -178,12 +180,14 @@ nav {
   color: var(--secondary);
   width: 100%;
   text-align: center;
+  padding-top: 10px;
 }
 
 /*contact me styling*/
 .contactH2 {
   width: 100%;
   text-align: center;
+  padding-top: 20px;
 }
 
 .contactDiv {
@@ -205,7 +209,8 @@ nav {
   color: var(--secondary);
   background-color: var(--primary);
   border: none;
-  padding: 8px;
+  padding: 5px 0 20px 0;
+  text-decoration: none;
 }
 
 .backHomeBtn:hover {
