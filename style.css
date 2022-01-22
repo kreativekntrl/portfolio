@@ -22,7 +22,7 @@ nav {
   margin-right: 20px;
   float: right;
   font-size: 20px;
-} 
+}
 
 /* Menu Button */
 .menuButton {
@@ -94,6 +94,10 @@ nav {
   margin-top: 26px;
 }
 
+.bio {
+  margin-top: 10px;
+  margin-left: 18px;
+}
 
 /*All content*/
 .content {
@@ -112,22 +116,39 @@ nav {
 
 /*content headings*/
 .content h2 {
-  font-size: 30px;
+  font-size: 45px;
   margin-bottom: 20px;
 }
 
 /*STYLE FOR PROJECT IMAGES*/
 /*entire section*/
+.myWork {
+  height: 812px;
+  width: 375px;
+}
+
+.projectsH1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+
 .project {
   position: relative;
+  margin: 0px 20px 10px 20px;
 }
+
+/* .p1,
+.p2,
+.p3 {
+  padding-top: 10px;
+} */
 
 /*project images*/
 .project img {
   width: 100%;
   height: auto;
   border: 2px solid var(--light);
-
 }
 
 /*image descriptions*/
@@ -136,10 +157,9 @@ nav {
   position: absolute;
   bottom: 20px;
   left: 10px;
-  background-color: var(--light);
+  background-color: var(--primary);
   color: var(--dark);
   padding: 3px;
-
 }
 
 /*Hover to make img and border larger*/
@@ -152,6 +172,12 @@ nav {
   content: "";
   display: table;
   clear: both;
+}
+
+.click {
+  color: var(--secondary);
+  width: 100%;
+  text-align: center;
 }
 
 /*contact me styling*/
