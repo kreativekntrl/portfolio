@@ -174,59 +174,35 @@ nav {
   clear: both;
 }
 
-.click {
+.workP {
   color: var(--secondary);
   width: 100%;
   text-align: center;
 }
 
 /*contact me styling*/
-.contactMe {
+.contactH2 {
   width: 100%;
-  padding: 6px;
-  border-radius: 6px;
-  background-color: var(--light);
-  position: center;
-
+  text-align: center;
 }
 
-label {
-  display: inline-block;
-  color: var(--primary);
-  font-size: 75%;
+.contactDiv {
+  width: 100%;
+  text-align: center;
+  padding: 0 0 10px 0;
 }
 
+.contactImg {
+  border-radius: 20px;
+  border: 2px solid var(--secondary);
+}
+
+.backHome {
+  width: 100%;
+  text-align: center;
+}
 /*style entire layout*/
-.contactForm {
-  padding: 10px;
-}
 
-/*style input boxes*/
-input[type=text],
-input[type=email],
-.desBox {
-  width: 100%;
-  padding: 12px;
-  background-color: var(--secondary);
-  border-radius: 2px;
-  resize: vertical;
-}
-
-/*style submit button*/
-input[type=submit] {
-  width: 100%;
-  padding: 12px 20px;
-  color: var(--primary);
-  background-color: var(--secondary);
-  border: none;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: var(--primary);
-  color: var(--secondary);
-  border: 1px solid var(--light);
-}
 
 /* MEDIA QUERY*/
 @media screen and (min-width: 375px) {
