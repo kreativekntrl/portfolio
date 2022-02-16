@@ -8,6 +8,7 @@ This is a professional portfolio that showcases my work as a web developer to fu
 # Technologies used:
 HTML
 CSS
+JavaScript
 
 # Preview Images : []
 
