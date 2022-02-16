@@ -185,9 +185,11 @@ nav {
 }
 
 .contactDiv {
-  width: 100%;
+  width: 100%; 
   text-align: center;
   padding: 0 0 10px 0;
+  background-color: black;
+  border: none;
 }
 
 .contactImg {
