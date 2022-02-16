@@ -1,3 +1,4 @@
+/* root color*/
 :root {
   --primary: black;
   --secondary: white;
@@ -5,7 +6,6 @@
   --light: #E5E5E5;
 }
 
-/* body color*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -34,7 +34,7 @@ nav {
 }
 
 .dropdownMenu {
-  position: sticky;
+  position: relative;
   display: inline-block;
 }
 
@@ -221,7 +221,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .project {
     width: 50%;
   }
